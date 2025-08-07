@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(140, 146, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px  ;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px  ;
+}
+.bottom{
+ display: flex;
+ gap:20px   ;
+}
+
+.arrow  {
+ height: 80px;
+ cursor: pointer;
+}
+
+.right{
+    transform: rotate(90deg);
+}
+
+.left{
+    transform: rotate(270deg );
+   
+}
+.frame{
+    /* border: 10px solid black; */
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgb(7, 7, 7);
+}
+
+.slider{
+    display: flex;
+    transition: all 1s ease;
+}
+.button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+   border: solid white ;
+    cursor: pointer;
+}
